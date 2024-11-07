@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Azzahra</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #6A11CB, #2575FC); /* Gradasi biru-ungu */
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 700px;
+            width: 100%;
+        }
+        .text-section {
+            margin-right: 20px;
+            text-align: left;
+        }
+        .text-section h1 {
+            color: #007BFF;
+            margin-bottom: 10px;
+        }
+        .text-section p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .image-section img {
+            max-width: 150px;
+            border-radius: 10px;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #6A11CB;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #2575FC;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-section">
+            <h1>Biodata Azzahra</h1>
+            <p>Selamat Datang di Website Biodata Azzahra Aini Ma'rifah!</p>
+            <button onclick="showDataTypes()">Tampilkan Data</button>
+            <button onclick="showStudentStatus()">Status Mahasiswa</button>
+            <p id="studentStatus"></p>
+        </div>
+        <div class="image-section">
+            <img src="Foto formal Azzahra bg merah.jpg" alt="Foto Azzahra">
+        </div>
+    </div>
+
+    <script src="datatypes.js" defer></script>
+</body>
+</html>
